@@ -1,0 +1,46 @@
+/* Coloring the top portion of the webapge */
+header {
+    background-color: sandybrown;
+}
+
+/* Changing color of the title*/
+.title {
+    color: rgb(150, 50, 50);
+}
+
+/* Changing color of the "Notes by:"  */
+.who {
+    color: #AFFFBF
+}
+
+/* Changing color of the date */
+.date {
+    color: hsl(0, 90%, 50%)
+}
+
+/* Adding height of the topic */
+.topic {
+    height: 10cm;
+}
+
+/* Adding height for the agenda section*/
+.head {
+    height: 50mm;
+}
+
+/* Changing sizing of the only picture on the webpage */
+.hieu {
+    height: 400px;
+    width: 400px;
+}
+
+/* Changing sizing of the height and width of the video  */
+.vid {
+    height: 40em;
+    width: 40rem;
+}
+
+/* changing width of the audio */
+audio {
+    width: 70vh;
+}
