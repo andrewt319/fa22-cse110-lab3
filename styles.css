@@ -21,26 +21,49 @@ header {
 /* Adding height of the topic */
 .topic {
     height: 10cm;
+    margin: 50px 50px 50px 50px;
 }
 
 /* Adding height for the agenda section*/
 .head {
     height: 50mm;
+    margin-left: 50px;
 }
 
 /* Changing sizing of the only picture on the webpage */
 .hieu {
     height: 400px;
     width: 400px;
+    border-style: solid;
+    border-color: red;
+    border-width: 20px;
+    border-radius: 5px;
 }
 
 /* Changing sizing of the height and width of the video  */
 .vid {
     height: 40em;
     width: 40rem;
+    max-width: 400px;
+    min-width: 200px;
 }
 
 /* changing width of the audio */
 audio {
     width: 70vh;
+}
+
+/* Changed display of attendance list to flex */
+#attendance{
+    display: flex;
+}
+
+h3+ul{
+    color: blue;
+    padding-left: 50px;
+}
+
+div>p{
+    color: green;
+    padding: 20px 20px 20px 20px;
 }
