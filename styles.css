@@ -2,6 +2,7 @@
 * {
     color: navy;
     background-color: darkgray;
+    font-family: 'Poltawski Nowy', serif;
 }
 
 /* Coloring the top portion of the webapge */
@@ -38,12 +39,20 @@ header {
 
 /* Changing sizing of the only picture on the webpage */
 .hieu {
-    height: 400px;
-    width: 400px;
+    height: 800px;
+    width: 800px;
     border-style: solid;
     border-color: red;
     border-width: 20px;
     border-radius: 5px;
+}
+
+/* Resizing picture of hieu when screensize reaches 600px */
+@media (max-width: 600px) {
+    .hieu {
+        height: 300px;
+        width: 300px;
+    }
 }
 
 /* Changing sizing of the height and width of the video  */
@@ -86,4 +95,75 @@ p {
 .media {
     display: block;
     position: relative;
+}
+
+select~button:hover {
+    background-color: green;
+}
+
+img:active {
+    border-color: blue;
+    border-width: 50px;
+}
+
+.pictures {
+    display: flex;
+    flex-shrink: 5;
+    flex-wrap: wrap-reverse;
+    flex-flow: space-evenly;
+    justify-content: flex-end;
+}
+
+.pic {
+    height: 500px;
+    width: 500px;
+
+}
+
+.pictures2 {
+    display: grid;
+    grid-template-columns: [first] 500px [line2] 500px [line3] auto [col4-start] 50px [five] 400px [end];
+    grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+    grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+}
+
+.pic1 {
+    height: 500px;
+    width: 500px;
+}
+
+.pic2 {
+    height: 500px;
+    width: 500px;
+}
+
+.pic3 {
+    height: 500px;
+    width: 500px;
+}
+
+h3[class] {
+    color: red;
+}
+
+ol, label {
+    color: purple;
+}
+
+section audio {
+    border-style: dotted;
+    border-color: red;
+    border-width: 20px;
+    border-radius: 5px;
+}
+
+hr ~ h3 {
+    color: yellow;
+}
+
+h3.finally {
+    color: black;
 }
