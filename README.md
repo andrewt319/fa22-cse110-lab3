@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://andrewt319.github.io/CSE110_Lab2_Starter/
+# Lab 3
+https://andrewt319.github.io/fa22-cse110-lab3/
